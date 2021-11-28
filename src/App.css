@@ -1,38 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600&display=swap');
+
+:root {
+  /* --gradient: linear-gradient(90deg, #ee6352, purple, #ee6352); */
+  --gradient: linear-gradient(45deg, #2F2BAD,#AD2BAD,#E42692,#F71568,#F7DB15, #34fd9c,#34fd9c);
+
+}
+
+@keyframes bg-animation {
+  0% {background-position: left}
+  100% {background-position: right}
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 1.6;
+  color: #333;
+  background: white;
+  
+  /* background-size: 300%;
+  background-image: var(--gradient);
+  animation: bg-animation 25s infinite; */
+}
+
 .App {
-  text-align: center;
+  text-align: left;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.icon-block {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.icon {
+  height: 30px;
+  margin: 0 10px;
+  /* pointer-events: none; */
+  opacity: 0.5;
+  transition: 0.1s;
+}
+
+.icon:hover {
+  opacity: 1;
+}
+
+a {
+  margin-top: 50px;
+  color: #1711d8;
+  opacity: 0.6;
+  transition: 0.1s;
+  text-decoration: none;
+}
+
+a:hover {
+  opacity: 1;
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: white;
   min-height: 100vh;
+  max-width: 600px;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  color: #282c34;
 }
 
-.App-link {
-  color: #61dafb;
+h1 {
+  font-size: 40px;
+  font-family: 'Open Sans', sans-serif;
+  background-image: var(--gradient);
+  background-size: 300%;
+  background-clip: text;
+  color: transparent;
+  animation: bg-animation 10s infinite alternate;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+p {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  line-height: 1.6;
+  margin-bottom: 0;
+}
+
+@media (max-width: 640px) { 
+
+.App{
+  margin: 0 40px;
+}
+
+p {
+  font-size: 12px;
+}
+
+h1 {
+  font-size: 34px;
+}
+
 }
