@@ -4,7 +4,7 @@
 
 :root {
   /* --gradient: linear-gradient(90deg, #ee6352, purple, #ee6352); */
-  --gradient: linear-gradient(45deg, #2F2BAD,#AD2BAD,#E42692,#F71568,#F7DB15, #34fd9c,#34fd9c);
+  --gradient: linear-gradient(45deg, #34fd9c,#1eb3c7,#2F2BAD,#AD2BAD,#E42692,#F71568,#F7DB15, #F7DB15,#F7DB15);
 
 }
 
@@ -50,15 +50,19 @@ body {
 }
 
 a {
-  margin-top: 50px;
-  color: #1711d8;
+  color: #050090;
   opacity: 0.6;
   transition: 0.1s;
   text-decoration: none;
 }
 
 a:hover {
+  color: #0600be;
   opacity: 1;
+}
+
+.text-link {
+  margin-top: 50px;
 }
 
 .App-header {
@@ -73,7 +77,7 @@ a:hover {
 
 h1 {
   font-size: 40px;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Lato', sans-serif;
   background-image: var(--gradient);
   background-size: 300%;
   background-clip: text;
@@ -82,7 +86,7 @@ h1 {
 }
 
 p {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Lato', sans-serif;
   font-weight: 400;
   line-height: 1.6;
   margin-bottom: 0;

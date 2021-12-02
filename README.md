@@ -1,3 +1,17 @@
+# Minimalist Personal Landing Page built in React
+
+This is a minimalist template for a personal landing page with social links and an email CTA button. Deploy to Firebase for free hosting.
+
+# How to Use
+
+    1. Clone this github repo using Visual Studio Code or similar.
+    2. Modify text, name and metadata. Add personal social links.
+    2. Create a new Firebase project and initialise it.
+    3. Copy your Firebase project public API keys into App.js firebase.Initialize App code block.
+    4. Run Build.
+    5. Deploy to Firebase.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

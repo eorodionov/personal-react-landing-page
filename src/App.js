@@ -5,6 +5,19 @@ import linkedin from './img/linkedin-2.png';
 
 import './App.css';
 
+//Firebase imports
+import { initializeApp } from "firebase/app";
+import { getAnalytics } from "firebase/analytics";
+
+
+//Firebase API keys. Replace with the keys provided in the Firebase project dashboard.
+const firebaseConfig = {
+};
+
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
+const analytics = getAnalytics(app);
+
 function App() {
   return (
     <div className="App">
@@ -22,14 +35,14 @@ function App() {
         <p>
         Cras elementum bibendum quam, sed facilisis purus fringilla vel.
         </p>
-        <a href = "mailto: eorodionov@gmail.com">
+        <a className="text-link" href = "mailto: test@gmail.com">
         Get in touch →
         </a>
         <div className="icon-block">          
-        <img src={instagram} className="icon" alt="logo" />
-        <img src={twitter} className="icon" alt="logo" />
-        <img src={github} className="icon" alt="logo" />
-        <img src={linkedin} className="icon" alt="logo" />
+        <a href = "mailto: test@gmail.com"><img src={instagram} className="icon" alt="instagram"/></a>
+        <a href = "mailto: test@gmail.com"><img src={twitter} className="icon" alt="twitter"/></a>
+        <a href = "mailto: test@gmail.com"><img src={github} className="icon" alt="github"/></a>
+        <a href = "mailto: test@gmail.com"><img src={linkedin} className="icon" alt="linkedin"/></a>
         </div>
       </header>
     </div>
