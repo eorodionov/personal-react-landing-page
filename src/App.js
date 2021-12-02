@@ -12,6 +12,13 @@ import { getAnalytics } from "firebase/analytics";
 
 //Firebase API keys. Replace with the keys provided in the Firebase project dashboard.
 const firebaseConfig = {
+  apiKey: "AIzaSyBs3LpNHoYJWSNvAuCyf2qSgsacec8LlwM",
+  authDomain: "evgeny-rodionov-landing.firebaseapp.com",
+  projectId: "evgeny-rodionov-landing",
+  storageBucket: "evgeny-rodionov-landing.appspot.com",
+  messagingSenderId: "388223217214",
+  appId: "1:388223217214:web:028c99cd75a3e93312ab6f",
+  measurementId: "G-2SKMG17KJC"
 };
 
 // Initialize Firebase
@@ -22,27 +29,27 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>Sanela Nicolai</h1>
+        <h1>Evgeny Rodionov</h1>
         <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam euismod tortor quis tempus pellentesque. 
+        London-based architect, entrepreneur, and educator.
         </p>
         <p>
-        Quisque pharetra massa eget pulvinar <a href="url">gravida</a>. Duis hendrerit lobortis odio, id imperdiet felis auctor ac. 
+        Delivering digital and built projects at <a href="https://www.wilkinsoneyre.com/">WilkinsonEyre</a> featured in <a href="https://www.dezeen.com/2019/10/22/sentosa-brani-masterplan-wilkinsoneyre-grant-associates-singapore/">Dezeen</a> and <a href="https://www.architectsjournal.co.uk/news/wilkinsoneyres-iceland-biodome-cluster-wins-planning">Architect’s Journal</a>.
         </p>
         <p>
-        Curabitur molestie erat justo, non bibendum quam scelerisque et. 
+        Design and strategy experience working with <a href="https://www.dysoninstitute.com/the-experience/the-accommodation/">Dyson</a>, <a href="https://www.aviva.co.uk/">Aviva</a>, <a href="https://www.crownresorts.com.au/">Crown Resorts</a>, <a href="https://www.sciencemuseum.org.uk/see-and-do/medicine-wellcome-galleries">London’s Science Museum</a>, and <a href="https://grant-associates.uk.com/projects/sentosa">Sentosa Development Corporation</a>.
         </p>
         <p>
-        Cras elementum bibendum quam, sed facilisis purus fringilla vel.
+        Guest lecturer and tutor at UCL’s <a href="https://www.ucl.ac.uk/bartlett/architecture/programmes/postgraduate/bio-integrated-design-bio-id-marchmsc">Bartlett School of Architecture</a>.
         </p>
-        <a className="text-link" href = "mailto: test@gmail.com">
+        <a className="text-link no-underline" href = "mailto: eorodionov@gmail.com">
         Get in touch →
         </a>
         <div className="icon-block">          
-        <a href = "mailto: test@gmail.com"><img src={instagram} className="icon" alt="instagram"/></a>
-        <a href = "mailto: test@gmail.com"><img src={twitter} className="icon" alt="twitter"/></a>
-        <a href = "mailto: test@gmail.com"><img src={github} className="icon" alt="github"/></a>
-        <a href = "mailto: test@gmail.com"><img src={linkedin} className="icon" alt="linkedin"/></a>
+        <a href = "https://www.instagram.com/evmatica/"><img src={instagram} className="icon" alt="instagram"/></a>
+        <a href = "https://twitter.com/evmatica"><img src={twitter} className="icon" alt="twitter"/></a>
+        <a href = "https://github.com/eorodionov"><img src={github} className="icon" alt="github"/></a>
+        <a href = "https://www.linkedin.com/in/evgeny-rodionov-46748775/"><img src={linkedin} className="icon" alt="linkedin"/></a>
         </div>
       </header>
     </div>

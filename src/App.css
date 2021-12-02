@@ -34,7 +34,7 @@ body {
 .icon-block {
   display: flex;
   justify-content: center;
-  margin-top: 50px;
+  margin-top: 60px;
 }
 
 .icon {
@@ -50,10 +50,14 @@ body {
 }
 
 a {
-  color: #050090;
-  opacity: 0.6;
+  font-family: 'Roboto', sans-serif;
+  /* color: #050090; */
+  color: black;
+  opacity: 1;
   transition: 0.1s;
-  text-decoration: none;
+  /* text-decoration: none; */
+  text-underline-offset: 2px;
+  text-decoration-color: #c0c4cc;
 }
 
 a:hover {
@@ -68,7 +72,7 @@ a:hover {
 .App-header {
   background-color: white;
   min-height: 100vh;
-  max-width: 600px;
+  max-width: 550px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -86,10 +90,14 @@ h1 {
 }
 
 p {
-  font-family: 'Lato', sans-serif;
-  font-weight: 400;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
   line-height: 1.6;
   margin-bottom: 0;
+}
+
+.no-underline {
+  text-decoration: none;
 }
 
 @media (max-width: 640px) { 
@@ -99,7 +107,11 @@ p {
 }
 
 p {
-  font-size: 12px;
+  font-size: 14px;
+}
+
+a {
+  font-size: 14px;
 }
 
 h1 {
