@@ -29,11 +29,10 @@ function App() {
     <div className="App">
       <header className="App-header">
         <h1>Evgeny Rodionov</h1>
-        <p>London-based architect, entrepreneur, and educator.</p>
         <p>
-          Evgeny Rodionov is a product leader building user-centric solutions in
-          data, marketing, and property. 2x zero to one, ex. founder, data
-          platforms, no-code & design tools, and generative AI.
+          Evgeny Rodionov is a product leader building user-centric data
+          platforms for property and marketing. 2x zero to one, ex. founder,
+          interested in all things no-code, design tooling, and generative AI.
         </p>
         <p>
           Digital, product, and strategy experience working with enterprise
@@ -44,9 +43,9 @@ function App() {
         <p>
           Ex. programme manager and guest lecturer at UCL’s{" "}
           <a href="https://www.ucl.ac.uk/bartlett/architecture/programmes/postgraduate/bio-integrated-design-bio-id-marchmsc">
-            Bartlett School of Architecture, ranked #1 worldwide.
+            Bartlett School of Architecture
           </a>
-          .
+          , ranked #1 worldwide.
         </p>
         <a
           className="text-link no-underline"
